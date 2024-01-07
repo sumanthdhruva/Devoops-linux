@@ -18,8 +18,7 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
-- task: CmdLine@2
-  inputs:
-    script: |
-      javac Helloworld.java
-      java Helloworld
+- script: |
+    javac Helloworld.java
+    java Helloworld
+  displayName: 'Compile and Run Java Program'
