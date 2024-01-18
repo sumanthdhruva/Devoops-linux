@@ -16,6 +16,6 @@ jobs:
     displayName: 'Run a one-line script'
 
   - script: |
-      javac Helloworld.java
-      java Helloworld
+      javac hello.java
+      java hello
     displayName: 'Compile and Run Java Program'
